@@ -358,5 +358,39 @@ python src\dashboard.py
 powershell -ExecutionPolicy Bypass -File .\scripts\stop_demo.ps1
 
 
+## 4. Gelecek Çalışmalar
+
+Bu çalışma, yaya akışının sensör tabanlı izlenmesi ve anomali tespiti için bir temel platform sunmaktadır.  
+Gelecek çalışmalarda sistemin doğruluk, ölçeklenebilirlik ve karar destek kapasitesinin artırılması hedeflenmektedir.
+
+### 1) Edge AI Entegrasyonu
+Mevcut sistem istatistiksel anomali algılama yöntemleri kullanmaktadır.  
+Gelecekte, derin öğrenme tabanlı yoğunluk tahmini ve davranış sınıflandırması algoritmalarının edge cihaz üzerinde çalıştırılması planlanmaktadır.
+
+### 2) Dijital İkiz Modeli
+Yaya akışının zamansal ve mekânsal davranışını temsil eden bir dijital ikiz geliştirilerek, gerçek zamanlı simülasyon ve senaryo analizi yapılabilir.  
+Bu yaklaşım, tahliye planlaması ve kalabalık yönetimi için karar destek sağlayacaktır.
+
+### 3) Çok Sensörlü Veri Füzyonunun Genişletilmesi
+Piezo sensör verisine ek olarak kamera, BLE, Wi-Fi probe ve lidar gibi veri kaynaklarının entegre edilmesi ile yoğunluk tahmini doğruluğu artırılabilir.
+
+### 4) Otonom Sensör Kalibrasyonu
+Sensör sağlık sistemi, gelecekte otomatik kalibrasyon ve adaptif eşik ayarlama mekanizmaları ile geliştirilebilir.  
+Bu sayede sensörler arası varyasyonun etkisi azaltılabilir.
+
+### 5) Mekânsal Yoğunluk Haritalama
+Birden fazla sensör noktasından elde edilen veriler kullanılarak gerçek zamanlı yoğunluk haritaları üretilebilir.  
+Bu özellik, akıllı kampüs ve akıllı şehir uygulamalarında kullanılabilir.
+
+### 6) Tahmine Dayalı Yoğunluk Analizi
+Zaman serisi tahmin modelleri kullanılarak yoğunluk eğilimlerinin önceden öngörülmesi mümkündür.  
+Bu yaklaşım, kalabalık oluşmadan önce önlem alınmasını sağlayabilir.
+
+### 7) Bulut ve Edge Hibrit Mimari
+Sistemin edge’de gerçek zamanlı analiz, bulutta ise uzun vadeli model eğitimi yapacak şekilde hibrit mimariye genişletilmesi planlanmaktadır.
+
+Bu geliştirmeler, sistemin akıllı şehir altyapıları ve kalabalık yönetimi uygulamalarında daha geniş ölçekte kullanılmasına olanak sağlayacaktır.
+
+
 
 
